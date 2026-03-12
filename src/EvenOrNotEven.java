@@ -4,10 +4,10 @@ public class EvenOrNotEven {
     public int num;
     public void main(){
         Random rand = new Random();
-        int num= rand.nextInt(101); //generating random number between 1 and 100
+        int num= rand.nextInt(101);
         System.out.println("Random Number: "+ num);
 
-        if (num % 2==0) // Checking if remainder after division is 0
+        if (num % 2==0)
         {
             System.out.println(num + " is an even number");
         }

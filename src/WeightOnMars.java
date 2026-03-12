@@ -12,11 +12,10 @@ public class WeightOnMars
         resultVariableAdelosoye = weightOnMarsAdelosoye;
         System.out.printf("Weight On Mars, Double Value:  %.4f%n", resultVariableAdelosoye);
 
-        // Type casting from double to integer
+
         integerVariableAdelosoye = (int)resultVariableAdelosoye;
         System.out.println("Cast to int: "+integerVariableAdelosoye);
 
-        //Type casting from integer to char
         charVariableAdelosoye = (char) integerVariableAdelosoye;
         System.out.println("Cast to char: "+charVariableAdelosoye);
 
